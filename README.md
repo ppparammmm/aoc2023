@@ -1,82 +1,181 @@
-Advent of Code 2023 - README
-Welcome to my repository for the Advent of Code 2023 challenges! This repository contains solutions to the daily coding puzzles provided by the Advent of Code event. Feel free to explore the code, provide feedback, or contribute to the solutions.
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">AOC2023</h1>
+</p>
+<p align="center">
+    <em>HTTP error 401 for prompt `slogan`</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/ppparammmm/aoc2023?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/ppparammmm/aoc2023?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/ppparammmm/aoc2023?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/ppparammmm/aoc2023?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
+</p>
+<hr>
 
-Table of Contents
-About Advent of Code
-Repository Structure
-How to Run
-Example Usage
-Contributing
-Contact
-About Advent of Code
-Advent of Code is an annual event that takes place from December 1st to December 25th. Each day, a new programming puzzle is released. Participants can solve these puzzles in any programming language of their choice. It’s a fun way to challenge your coding skills and learn new concepts.
+##  Quick Links
 
-Repository Structure
-css
-Copy code
-aoc2023/
-│
-├── day01/
-│   ├── d1p1.py
-│   ├── d1p2.py
-│   ├──inputd1p1.txt
-│   └──inputd1p2.txt
-│
-│
-├── ...
-│
-├── README.md
-└── utils/
-    ├── find_calibration_value.py
-    └── calculate_total_calibration.py
-Each dayXX folder contains the solutions for that day's puzzles.
-utils/ contains helper functions and utility scripts.
-README.md provides an overview and instructions for the repository.
-How to Run
-Clone the repository:
+> - [ Overview](#-overview)
+> - [ Features](#-features)
+> - [ Repository Structure](#-repository-structure)
+> - [ Modules](#-modules)
+> - [ Getting Started](#-getting-started)
+>   - [ Installation](#-installation)
+>   - [ Running aoc2023](#-running-aoc2023)
+>   - [ Tests](#-tests)
+> - [ Project Roadmap](#-project-roadmap)
+> - [ Contributing](#-contributing)
+> - [ License](#-license)
+> - [ Acknowledgments](#-acknowledgments)
 
-sh
-Copy code
-git clone https://github.com/your-username/aoc2023.git
+---
+
+##  Overview
+
+HTTP error 401 for prompt `overview`
+
+---
+
+##  Features
+
+HTTP error 401 for prompt `features`
+
+---
+
+##  Repository Structure
+
+```sh
+└── aoc2023/
+    ├── README.md
+    └── day 1
+        ├── d1p1.py
+        └── inputd1p1.txt
+```
+
+---
+
+##  Modules
+
+<details closed><summary>day 1</summary>
+
+| File                                                                                   | Summary                                         |
+| ---                                                                                    | ---                                             |
+| [inputd1p1.txt](https://github.com/ppparammmm/aoc2023/blob/master/day 1/inputd1p1.txt) | HTTP error 401 for prompt `day 1/inputd1p1.txt` |
+| [d1p1.py](https://github.com/ppparammmm/aoc2023/blob/master/day 1/d1p1.py)             | HTTP error 401 for prompt `day 1/d1p1.py`       |
+
+</details>
+
+---
+
+##  Getting Started
+
+***Requirements***
+
+Ensure you have the following dependencies installed on your system:
+
+* **Python**: `version x.y.z`
+
+###  Installation
+
+1. Clone the aoc2023 repository:
+
+```sh
+git clone https://github.com/ppparammmm/aoc2023
+```
+
+2. Change to the project directory:
+
+```sh
 cd aoc2023
-Navigate to the desired day's folder:
+```
 
-sh
-Copy code
-cd day01
-Run the solution script:
+3. Install the dependencies:
 
-sh
-Copy code
-python d1p1.py
-python d1p2.py
-Example Usage
-Here is an example of how to use the utility functions to calculate the total calibration value:
+```sh
+pip install -r requirements.txt
+```
 
-python
-Copy code
-from utils.calculate_total_calibration import calculate_total_calibration
+###  Running aoc2023
 
-# Read input from file
-file_path = 'day01/input.txt'
-with open(file_path, 'r') as file:
-    input_lines = file.readlines()
+Use the following command to run aoc2023:
 
-# Calculate the total calibration value
-total_calibration_value = calculate_total_calibration(input_lines)
-print(f"Total Calibration Value: {total_calibration_value}")
-Contributing
-Contributions are welcome! If you have any improvements or solutions you'd like to share, please follow these steps:
+```sh
+python main.py
+```
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-Contact
-If you have any questions or need help, feel free to reach out on Discord. I'm looking forward to collaborating with you!
+###  Tests
 
-Need Help?
-I'm currently working on solving the Advent of Code 2023 puzzles and would appreciate any help or collaboration from the community. If you're interested, please join the discussion on the Advent of Code Discord or reach out directly to me on Discord. Let's solve these puzzles together!
+To execute tests, run:
 
-Happy Coding!
+```sh
+pytest
+```
+
+---
+
+##  Project Roadmap
+
+- [X] `► INSERT-TASK-1`
+- [ ] `► INSERT-TASK-2`
+- [ ] `► ...`
+
+---
+
+##  Contributing
+
+Contributions are welcome! Here are several ways you can contribute:
+
+- **[Submit Pull Requests](https://github.com/ppparammmm/aoc2023/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/ppparammmm/aoc2023/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/ppparammmm/aoc2023/issues)**: Submit bugs found or log feature requests for Aoc2023.
+
+<details closed>
+    <summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   ```sh
+   git clone https://github.com/ppparammmm/aoc2023
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to GitHub**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+
+Once your PR is reviewed and approved, it will be merged into the main branch.
+
+</details>
+
+---
+
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+##  Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+[**Return**](#-quick-links)
+
+---
