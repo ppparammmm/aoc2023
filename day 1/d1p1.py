@@ -31,7 +31,7 @@ def read_input_file(file_path):
         return file.readlines()
 
 # Example usage:
-file_path = r'C:\Users\a\Documents\aoc2023\input.txt'
+file_path = r'C:\Users\a\Documents\aoc2023\day 1\inputd1p1.txt'
 input_lines = read_input_file(file_path)
 total_calibration_value = calculate_total_calibration(input_lines)
 print(f"Total Calibration Value: {total_calibration_value}")
