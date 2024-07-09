@@ -35,3 +35,4 @@ file_path = r'C:\Users\a\Documents\aoc2023\input.txt'
 input_lines = read_input_file(file_path)
 total_calibration_value = calculate_total_calibration(input_lines)
 print(f"Total Calibration Value: {total_calibration_value}")
+ 
